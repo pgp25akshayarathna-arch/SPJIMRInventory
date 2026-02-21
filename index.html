@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sports Inventory System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>College Sports Inventory</h1>
+
+<h2>Borrow Equipment</h2>
+
+<input type="text" id="studentName" placeholder="Student Name">
+<input type="text" id="rollNo" placeholder="Roll No">
+<input type="text" id="itemName" placeholder="Equipment Name">
+
+<button onclick="borrowItem()">Borrow</button>
+
+<h2>Inventory List</h2>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Borrower</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="inventoryTable"></tbody>
+</table>
+
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
